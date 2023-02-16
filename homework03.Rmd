@@ -55,8 +55,27 @@ ggplot(data = us_fixed, aes(x = year, y = lifeExp)) + geom_line()
 ```
 
 
-# Add Canada
+# Add Canada - Emma
 
+# Unfixed Data Plot
 
+```{r}
+life5060 <- read.csv("https://raw.githubusercontent.com/epodlich/practice1-ryancorydon8/main/gapminder-5060%20.csv")
+View(life5060)
+dim(life5060)
+canada <- life5060[life5060$country == "Canada", ]
+
+head(canada)
+dim(canada)
+ggplot(data = canada, aes(x = year, y = lifeExp)) + geom_line()
+```
+# Fixed Data Plot
+
+```{r}
+canada_fixed = canada
+canada_fixed$lifeExp[canada_fixed$year==1957] = 69.96
+canada_fixed
+ggplot(data = canada_fixed, aes(x = year, y = lifeExp)) + geom_line()
+```
 
 
