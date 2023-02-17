@@ -11,11 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Due: 2/17/2022 before 11:59pm. Submit in Canvas (file upload).
 
-## Git
+## Git Links
 Ryan Repository: https://github.com/ryancorydon8/practice1-ryancorydon8
+
 Emma Repository: https://github.com/epodlich/practice1-epodlich
 
-I made 4 pull requests on Emma's repository after I forked her repository and made changes under mine.There was a at least 18 commits.
+I made 4 pull requests on Emma's repository after I forked her repository and made changes under mine. There was at least 18 commits.
 
 Emma made 3 pull requests on my repository and merged successfully. There was at least 14 commits.
 
@@ -25,7 +26,7 @@ Emma made 3 pull requests on my repository and merged successfully. There was at
 
 First I would say how to understand a forked repository and make a pull request into the main repository. The most important thing is practice with git because after multiple attempts it becomes a lot easier to understand. As well understand R and pushing the files from R into git. This takes practice and to understand it best it is important to make sure you clone the repository and connect it via version control in R.
 
-## Question 3
+## Question 3 Graph
 
 Generate the graph of LifExp vs. gdpPercap for US, Canada (fixed data) and Australia by RMarkdown based on the data set "gapminder-5060", like what we did in the class.  
 Please use Github to collaborate on this problem. For example, one member can create the plot of US in his/her repository. The other member will fork this repository, add the result for the second country, and make a pull request for merging into the main repository. Each member should at least analyze one country and make at least one pull request. **Please submit the RMarkdown file, the output file, and the screen shot of the successful pull request and the merge.**
